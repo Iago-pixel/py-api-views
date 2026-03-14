@@ -1,7 +1,17 @@
 from rest_framework import mixins, viewsets
 
-from cinema.models import Movie, Actor, Genre, CinemaHall
-from cinema.serializers import MovieSerializer, ActorSerializer, GenreSerializer, CinemaHallSerializer
+from cinema.models import (
+  Movie,
+  Actor,
+  Genre,
+  CinemaHall
+)
+from cinema.serializers import (
+  MovieSerializer,
+  ActorSerializer,
+  GenreSerializer,
+  CinemaHallSerializer
+)
 
 
 class MovieViewSet(

@@ -1,6 +1,11 @@
 from django.urls import path
 
-from cinema.views import MovieViewSet, ActorViewSet, GenreViewSet, CinemaHallViewSet
+from cinema.views import (
+  MovieViewSet,
+  ActorViewSet,
+  GenreViewSet,
+  CinemaHallViewSet
+)
 
 methods_list = {
     'get': 'list',
